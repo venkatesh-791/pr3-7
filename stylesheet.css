@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-color: a qua;
+   
+}
+#main_container{
+    display: flex;
+    margin-top: 25px;
+    background-color: r ed;
+}
+.logo{
+    width: 120px;   
+    margin-left: 160px;
+}
+.m{
+    margin-left: 20px;
+    margin-top: 35px;    
+}
+.Dr{
+    font-size: 20px;
+    margin-top: 45px;  
+    margin-left: 60px;  
+}
+#leftright{
+    flex-direction: row;
+    display: flex;
+    
+}
+#lefting{ 
+   flex-direction: column;
+   display: flex;
+   
+   
+   width: 20%;
+   background-color: rg b(185, 255, 127);
+   
+}
+#firstleft{
+  
+    
+      flex: 30%;
+      background-color: bl0ueviolet;
+      
+      height: 20%;
+    
+}
+
+.prof{
+    width: 100px;
+    margin-left: 165px;
+    margin-top: 30px;
+    
+}
+.Dr_name{
+    font-size: 15px;
+    margin-left: 138px;
+    margin-top: 22px;
+}
+
+.diab{
+    font-size: 16px;
+    margin-left: 128px;
+    margin-top: 15px;
+}
+.viewprof{
+    font-size: 18px;
+    margin-left: 168px;
+    margin-top: 15px;
+    color: orange;
+}
+
+.quick{
+    font-size: 18px;
+    color: orange;
+    padding-top: 11px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 180px;   
+    height: 40px;  
+    text-align: center;
+}
+.quick:hover{
+    background-color: tomato;
+}
+#secondleft{
+   
+    margin-top: 65px;
+    line-height: 7px;
+    background-color: r0gb(255, 0, 176);
+    flex-direction:  70% column;
+    flex: 70%;  
+    
+}
+#secondleft{
+    line-height: 40px;
+     
+    flex-direction: row;
+}
+
+#menubar{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.first{  
+    margin-left: 155px;
+    margin-top: 10px;     
+    transform: scale(1);    
+}
+.second{
+    margin-top: 2px; 
+}
+
+#menubar :hover{
+    color: tomato;
+    list-style-type: none;  
+}
+#righting{
+    background-color: rgb(221, 229, 236);  
+    width: 1400px;
+    height: 950px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 375px;
+    top: 105px;
+    wi dth: 74%;
+    
+}
+
+.rightone{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;  
+    justify-content: space-between; 
+}
+.app{    
+     padding-left: 20px;
+}
+.searchright{
+    justify-content: right;
+    display: flex;
+    padding-left: 900px;
+    
+}
+.search{    
+    align-items: baseline;
+    float: left;
+    background: none;   
+}
+.o{
+    display: flex;
+    background: none;
+}
+.p{
+    flex-direction: row;
+    background: none;
+
+}
+.but{
+    margin-top: 9px;
+    height: 20px;
+    width: 35px;
+}
+.filter{
+    padding-left: 30px;
+    display: flex;  
+}
+.r{
+    display: flex; 
+}
+.s{
+    flex-direction: row;    
+}
+.fil{
+    width: 20px;
+}
+#white{
+    background-color: white;
+    width: 1340px;
+    height: 820px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    top: 60px;
+
+}
+.wh1{
+    font-size: 20px;
+    display: flex;
+    padding-top: 25px;
+}
+.upcom{
+    padding-left: 15px;
+    
+}
+.incom{
+    padding-left: 170px;
+}
+.comp{
+    padding-left: 150px;
+    text-decoration: underline;
+}
+#naming{
+    display: flex;
+    padding-top: 60px;
+   
+    font-size: 17px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid rgb(175, 169, 169);
+    
+}
+.pat{
+  
+    display: flex;
+}
+.patting{
+    
+    
+}
+.act{
+   
+    
+}
+.loc{
+  
+    display: flex;
+}
+.apps{
+  
+    display: flex;
+}
+#pic1{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    border-bottom: 0.1px solid rgb(175, 169, 169);  
+    margin-left: 10px;
+     
+}
+.A{
+    display: flex; 
+      
+}
+.B{
+    
+}
+.C{
+     
+}
+.D{
+      
+}
+.E{
+     
+}
+.on{
+    width: 40px;
+    border-radius: 40%;
+   
+
+}
+.isac{
+   
+}
+.E{
+    display: flex;
+    flex-direction: row;
+    
+}
+.j{
+    width: 30px;    
+}
+.n{
+    width: 20px;  
+}
+
+@media screen and (max-width:1000px){ 
+     #main { background-color: red;
+        
+    }
+      
+    
+}
+
+ 
